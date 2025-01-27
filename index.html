@@ -4,11 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Page</title>
+    <style>
+        .left {
+            float: left;
+            width: 60%;
+            height: 100%;
+        }
+        .right {
+            float: right;
+            width: 30%;
+            height: 100%;
+            background-color: #f0f0f0;
+        }
+        .left div {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #e0e0e0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to My Personal Page</h1>
     <p>This is a simple example of a personal page.</p>
     <p> raydiums</p>
-    <url>https://raydiums.io</url>
+    <a href="https://raydiums.io">https://raydiums.io</a>
+
+    <div class="left">
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>网站名称</th>
+                        <th>网站地址</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Raydiums</td>
+                        <td><a href="https://raydiums.io">https://raydiums.io</a></td>
+                    </tr>
+                    <!-- 可以添加更多网站 -->
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <!-- 左边第二个div内容 -->
+            第二个div内容
+        </div>
+        <div>
+            <!-- 左边第三个div内容 -->
+            第三个div内容
+        </div>
+    </div>
+    <div class="right">
+        <!-- 右边div内容 -->
+        右边div内容
+    </div>
 </body>
 </html>
